@@ -1,6 +1,4 @@
-import "./App.css";
 import { PersonInfo } from "./PersonInfo";
-
 
 const persons = [
 	{
