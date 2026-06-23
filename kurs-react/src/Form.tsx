@@ -9,7 +9,6 @@ export function Form({ onAddPerson }: { onAddPerson: Function }) {
 		<form
 			onSubmit={(e) => {
 				e.preventDefault();
-				console.log(name, tel, city);
 				onAddPerson({ name, tel, city });
 			}}>
 			<div>
